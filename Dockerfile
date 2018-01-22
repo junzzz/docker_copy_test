@@ -1,4 +1,4 @@
-FROM scratch
+FROM golang:1.8
 WORKDIR /
 COPY . .
 ENV GOROOT /usr/local/go
